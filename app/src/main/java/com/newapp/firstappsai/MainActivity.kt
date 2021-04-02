@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun view() {
-        println("change 2")
+        println("change 3")
 
     }
 }
