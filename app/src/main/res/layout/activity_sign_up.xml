@@ -9,7 +9,6 @@
     android:gravity="center"
     tools:context=".LoginActivity">
 
-
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -17,9 +16,28 @@
         />
 
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="196dp" />
 
     <EditText
-        android:id="@+id/email_lp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone No."
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+
+    <EditText
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email Id"
@@ -29,7 +47,6 @@
         tools:layout_editor_absoluteY="196dp" />
 
     <EditText
-        android:id="@+id/password_lp"
         android:layout_marginTop="20dp"
         android:inputType="textPassword"
         android:layout_width="match_parent"
@@ -40,11 +57,10 @@
         tools:layout_editor_absoluteY="254dp" />
 
     <Button
-        android:id="@+id/login_lp"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="50sp"
-        android:text="Login"
+        android:text="Sign Up"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:backgroundTint="@color/black"

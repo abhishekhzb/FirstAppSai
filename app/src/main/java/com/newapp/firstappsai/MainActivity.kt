@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -17,12 +18,17 @@ class MainActivity : AppCompatActivity() {
 
         //login
         loginButton.setOnClickListener {
-                                //source/current class name , destination class
+                                //current class  , destination class
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 
         //signup
+        signUpButton.setOnClickListener {
+            //current class  , destination class
+            val intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 
