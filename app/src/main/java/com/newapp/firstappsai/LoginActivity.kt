@@ -25,6 +25,7 @@ class LoginActivity : AppCompatActivity() {
             var password_et = password_et.text
 
             Log.e("email",""+email)
+
             Log.e("password",""+password_et)
 
         }
