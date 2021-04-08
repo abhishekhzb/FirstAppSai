@@ -7,8 +7,8 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="15dp"
-    android:background="@color/design_default_color_secondary"
-    tools:context=".MainActivity">
+
+    tools:context=".activities.MainActivity">
 
 
     <ImageView

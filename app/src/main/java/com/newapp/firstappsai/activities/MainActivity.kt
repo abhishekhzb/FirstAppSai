@@ -1,11 +1,10 @@
-package com.newapp.firstappsai
+package com.newapp.firstappsai.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
-import android.widget.Toast
+import com.newapp.firstappsai.R
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,7 +1,8 @@
-package com.newapp.firstappsai
+package com.newapp.firstappsai.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.newapp.firstappsai.R
 
 class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,2 +1,3 @@
+include ':saiLibrary'
 include ':app'
 rootProject.name = "FirstAppSai"

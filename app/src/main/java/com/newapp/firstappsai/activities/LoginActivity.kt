@@ -1,13 +1,13 @@
-package com.newapp.firstappsai
+package com.newapp.firstappsai.activities
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.Toast
+import com.newapp.firstappsai.R
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,10 +23,13 @@ class LoginActivity : AppCompatActivity() {
         loginButton.setOnClickListener {
             var email = email_et.text
             var password_et = password_et.text
-
             Log.e("email",""+email)
-
             Log.e("password",""+password_et)
+
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+
+
 
         }
 
