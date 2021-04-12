@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.newapp.firstappsai">
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,8 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstAppSai">
         <activity
+            android:name=".activities.SignUpActivity2"
+            android:label="@string/title_activity_sign_up2">
+        </activity>
+
+        <activity
             android:name=".activities.HomeActivity"
-            android:label="@string/title_activity_home"></activity>
+            android:label="@string/title_activity_home" />
         <activity
             android:name=".activities.SplashActivity"
             android:theme="@style/Theme.Design.NoActionBar">
