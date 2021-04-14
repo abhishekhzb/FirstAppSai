@@ -45,6 +45,8 @@ class SignUpActivity2 : AppCompatActivity() {
                 editor.apply()
                 editor.commit()
 
+                var userName = sharedPreferences.getString("USER_NAME","")
+
             }
         }
 

@@ -16,46 +16,120 @@
 
 
     <EditText
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10sp"
+        android:background="@drawable/border_edittext"
         android:id="@+id/name_signup"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:hint="Enter Full Name"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/phoneSignup"
+        android:paddingStart="10dp"
+        android:paddingLeft="10sp"
+        android:layout_height="45dp"
+        android:background="@drawable/border_edittext"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:hint="Enter Phone No."
         android:inputType="textEmailAddress" />
 
 
     <EditText
         android:id="@+id/emailSignup"
+        android:paddingStart="10dp"
+        android:paddingLeft="10sp"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/border_edittext"
         android:hint="Enter Email Id"
+        android:textColor="@color/purple_700"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/passwordSignup"
+        android:paddingStart="10dp"
+        android:paddingLeft="10sp"
         android:layout_marginTop="20dp"
         android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/border_edittext"
         android:hint="Enter Password" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep me Loggedin "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subscribe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:layout_weight="1"
+                android:id="@+id/radioMale"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="  Male"
+                android:checked="false"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:layout_weight="1"
+                android:id="@+id/radioFemale"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="   Female"
+                android:checked="false"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+
 
     <Button
         android:id="@+id/buttonSignup"
+        android:paddingStart="10dp"
+        android:paddingLeft="10sp"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="50sp"
+        android:layout_height="55sp"
         android:text="Sign Up"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:backgroundTint="@color/black" />
+
 
 
 </LinearLayout>
