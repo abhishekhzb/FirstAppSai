@@ -8,6 +8,20 @@
     android:padding="20dp"
     android:gravity="center">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/teal_200"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="Imagine standing store"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/teal_700"
+        android:text="Imagine standing at the check-out counter at the grocery store"
+        android:layout_height="wrap_content"/>
+
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
